@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+    
+<HTML>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <title>Tratamento de Dados</title>
+        <link rel="shortcut icon" type="image/png" href="./img/tratdedados.png">
+        <link rel="stylesheet" type="text/css" href="alunos.css">
+    </head>
+    <body>
+        <header class="menu">
+            <nav>  
+            <div class="logo">
+                <img height="130" src="./img/logotoroid.png">
+            </div>
+                
+            <div class="abas">
+                <ul class="nav-list">
+                    <li> <a href="./perfil.html"><img width="60" height="60" src="./img/perfil.png"/></a> </li>
+                    <li> <a href="./alunos.html"><img width="60" height="60" src="./img/tratdedados.png"/></a> </li>
+                    <li> <a href="./index.html"><img width="60" height="60" src="./img/spotify.png"/></a> </li>
+                </ul>
+            </nav>
+            </div>    
+        </header>
+        <main></main>
+
+        <div id="main-container">
+            <h1>Cadastre as notas do aluno:</h1>
+            <form register-form>
+                <div class="full-box">
+                    <label for="Nota1">Nota da primeira prova</label>
+                    <input type="number" name="nota1" id="n1" placeholder="Digite a nota 1">
+                </div>
+                <div class="full-box">
+                    <label for="Aluno1">Nota da segunda prova</label>
+                    <input type="number" name="nota2" id="n2" placeholder="Digite a nota 2">
+                </div>
+                <div class="full-box">
+                    <label for="Nota3">Nota da terceira prova</label>
+                    <input type="number" name="nota3" id="n3" placeholder="Digite a nota 3">
+                </div>
+                <div class="full-box">
+                    <button onclick="calcular()">Media</button>
+                </div>
+
+            </form>
+        </div>
+        
+
+        <script src="scriptal.js"></script>
+
+
+    </body>
+</HTML>
+
