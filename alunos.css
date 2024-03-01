@@ -22,7 +22,10 @@ body {
     width: 100%;
     height: 100%;
     margin: 0 auto;
-    background-color: #24548c;
+    background: linear-gradient(to bottom, #285e9c, #18191a);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 header {
@@ -31,6 +34,8 @@ header {
     justify-content: space-between;
     background: #24548c;
     padding: 10px;
+    width: 100%;
+    height: 100%;
 }
 
 .logo {
@@ -84,8 +89,7 @@ input, label {
     margin-right: auto;
     background-color: #faf9f6;
     border-radius: 10px;
-    box-shadow:   12px -12px 24px #1d4370,
-    -12px 12px 24px #2b65a8;
+    box-shadow:   8px 8px 12px;
     padding: 25px;
 }
 
