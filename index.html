@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - API</title>
+
+    <link rel="shortcut icon" type="image/png" href="./img/spotify.png">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header class="menu">
+        <nav>  
+        <div class="logo">
+            <img height="130" src="./img/logotoroid.png">
+        </div>
+            
+        <div class="abas">
+            <ul class="nav-list">
+                <li> <a href="./perfil.html"><img width="60" height="60" src="./img/perfil.png"/></a> </li>
+                <li> <a href="./alunos.html"><img width="60" height="60" src="./img/tratdedados.png"/></a> </li>
+                <li> <a href="./index.html"><img width="60" height="60" src="./img/spotify.png"/></a> </li>
+            </ul>
+        </nav>
+        </div>    
+    </header>
+
+    <div id="app">
+        <h1>Spotify API</h1>
+        <div>
+            <input type="text" id="searchInput" placeholder="Digite o artista ou música">
+            <button onclick="search()">Buscar</button>
+        </div>
+        <div id="results"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
