@@ -6,6 +6,7 @@
     <title>Spotify - API</title>
 
     <link rel="shortcut icon" type="image/png" href="./img/spotify.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -25,15 +26,16 @@
         </nav>
         </div>    
     </header>
-
+<main>
     <div id="app">
-        <h1>Spotify API</h1>
+        <h1>Spotify API <i class="fa-brands fa-spotify" style="color: #63E6BE;"></i></h1>
         <div>
             <input type="text" id="searchInput" placeholder="Digite o artista ou música">
             <button onclick="search()">Buscar</button>
         </div>
         <div id="results"></div>
     </div>
+</main>    
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="app.js"></script>
 </body>
